@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> creat a servey form</title>
+    <link rel="stylesheet" href="servey_form.css">
+    <link rel="shortcut icon" href="/kg.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container">
+        <div class=" form_header">
+            <h1>geeksforgeeks servey form</h1>
+            <form action="">
+                <div class="form_control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form_control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form_control">
+                    <label for="age">Age</label>
+                    <input type="age" id="age" name="age" placeholder="Enter your age">
+                </div>
+                <div class="form_control">
+                    <label for="choicing">Which option best discribes you </label>
+                    <select name="choicing" id="choicing">
+                        <option value="">student</option>
+                        <option value="intern">intern</option>
+                        <option value="professional">professional</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+                <div class="form_control">
+                    <label for="radio">would you recommend geeksforgeeks to a friend?</label>
+                    <label for="radio1"><input type="radio" class="radio" name="recommend" value="recommend">yes</label>
+
+                    <label for="radio2"><input type="radio" class="radio" name="recommend" value="recommend">No</label>
+
+                    <label for="radio3"> <input type="radio" class="radio" name="recommend"
+                            value="recommend">Maybe</label>
+
+                </div>
+                <div class="form_control">
+                    <label for="check_apply">Language and framworks knows <small>(check all the apply)</small></label>
+                    <label for="checkbox1"><input type="checkbox" value="c" name="c">C</label>
+                    <label for="checkbox2"> <input type="checkbox" value="c++" name="c++">C++</label>
+                    <label for="checkbox3"> <input type="checkbox" value="java" name="java">java </label>
+                    <label for="checkbox4"> <input type="checkbox" value="c#" name="c#">C# </label>
+                    <label for="checkbox5"> <input type="checkbox" value="java" name="java">Javascript</label>
+
+                    <label for="checkbox6"> <input type="checkbox" value="python" name="python">Python </label>
+
+                    <label for="checkbox7"> <input type="checkbox" value="React" name="React">React</label>
+                    <label for="checkbox8"> <input type="checkbox" value="Angular" name="Angular">Angular</label>
+
+                    <label for="checkbox9"> <input type="checkbox" value="Django" name="Django">Django </label>
+                    <label for="checkbox10"> <input type="checkbox" value="Spring" name="Spring">Spring </label>
+
+                </div>
+                <div class="textarea">
+                    <label for="textarea">any comments or suggestions</label>
+                    <textarea name="textarea" id="textarea" cols="10" rows="7"
+                        placeholder="enter your suggestion"></textarea>
+                </div>
+                <div class="botton">
+                    <button class="form_botton" value="submit">submit</button>
+                    <button class="form_button" value="reset">reset</button>
+                </div>
+            </form>
+
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>persional allpicition form </title>
+    <link rel="stylesheet" href="persional_details_form.css">
+</head>
+
+<body>
+    <div id="outside">
+        <form id="survey-form" action="/my headiling form">
+            <h1 id="tittle">application for to permission date my daughter</h1>
+            <p id="discription"><b>NOTE:</b>form is to be completed at least 21 days prior to date</p>
+
+            <fieldset>
+                <legend>personal details </legend>
+                <div>
+                    <label id="name_label" for="name">name:</label>
+                    <input type="text" required id="name" name="user_name" placeholder="enter name here">
+                </div>
+                <div>
+                    <label id="address_label" for="address">address:</label>
+                    <input type="address" id="adress" name="address" placeholder="enter address here">
+                </div>
+                <div>
+                    <label id="email_label" for="email">email:</label>
+                    <input type="email" id="email" name="user_email" placeholder="enter email here">
+                </div>
+                <div>
+                    <label id="number_label" for="number">phone number:</label>
+                    <input type="number" id="number" name="user_name" placeholder="enter 10 degit number" min="1"
+                        max="9">
+                </div>
+                <div>
+                    <label id="name_label" for="name">name:</label>
+                    <input type="text" required id="name" name="user_name" placeholder="enter name here">
+                </div>
+                <div>
+                    <label id="name_label" for="name">name:</label>
+                    <input type="text" required id="name" name="user_name" placeholder="enter name here">
+                </div>
+                <div>
+                    <label for="gender">gender</label>
+                    <p>
+                        <input type="radio" name="gender" value="male">male <br>
+                        <input type="radio" name="gender" value="femail">femail <br>
+                        <input type="radio" name="gender" value="other">other <br>
+
+                    </p>
+                </div>
+                <label for="date-label">date of proposed outing:</label>
+                <input type="date" name="date-label">
+
+            </fieldset>
+            <fieldset>
+                <label for="gender">check all that apply</label>
+                <p>
+                    <input type="checkbox" name="tattoo" value="tattoo">i have tattooand/or piercings <br>
+                    <input type="checkbox" name="age" value="car">i am more than 2 year older than my daughter <br>
+                    <input type="checkbox" name="car" value="car">i own a panel van or 8v ute <br>
+                    <input type="checkbox" name="work" value="work">i work full time <br>
+                    <input type="checkbox" name="rich" value="rich">my parent are rich <br>
+                    <input type="checkbox" name="loc" value="loc">it the date at a well it public location <br>
+                </p>
+            </fieldset>
+            <fieldset>
+        <div>
+            <label for="folitices">folitical persuasion:</label>
+            <select id="dropdown">
+          <option value="left">left wing</option>
+          <option value="right">right wing</option>
+          <option value="conservative">conservative</option>
+          <option value="nazi">nazi</option>
+            </select>
+            <label for="politics">education level completed:</label>
+            <select id="dropdown2"> 
+                <option value="university">university</option>
+                <option value="college">college</option>
+                <option value="secondery">secondery</option>
+                <option value="none">none</option>
+            </select>
+        </div>
+     </fieldset>
+     <fieldset>
+         <legend>eassy section </legend>
+        <div>
+        <label for="msg">In 50 word or more explain why you want to date my daughter</label><br>
+        <textarea name="user_message" id="msg" cols="50" rows="4">enter text here</textarea>
+    </div>
+    <div>
+        <label for="msg">please uplade contect details for 2 references</label><br>
+        <textarea name="user_massage" id="msg2" cols="30" rows="10"></textarea>
+    </div>
+     </fieldset>
+       <p>uplode police clearance certificate,bank statement and medical cerficates here<button id="btn">attach files </button></p>
+       <div id="submitbutton">
+        <button type="submit" id="submit">send your appplication</button>
+       </div>
+        </form>
+    </div>
+</body>
+
+</html>
